@@ -1,0 +1,19 @@
+h4 {
+    width: 1024px;
+    text-align: center;
+}
+
+ul {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    width: 240px;
+}
+
+.quartoInfo {
+    margin-bottom: 30px;
+}

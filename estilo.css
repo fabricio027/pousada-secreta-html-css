@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    padding: 10px 90px;
+    position: fixed;
+    top: 0;
+}
+
+.link-topo {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.link-logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.span-logo {
+    color: cornflowerblue;
+}
+
+.fundo-titulo {
+    margin-top: 45px;
+    background-image: url(assets/img-fundo.jpg);
+    width: 1024px;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box-titulo {
+    background-color: rgba(40, 112, 40, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.container-h2 {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.container-quartos {
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.img-quarto {
+    width: 325px;
+    height: 200px;
+}
+
+.divQuarto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+
+.link-quarto {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.container-descricao {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.item-descricao {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% / 2 - 40px);
+    margin: 10px;
+}
+
+.img-descricao {
+    width: 125px;
+    height: 125px;
+}
+
+.container-rodape {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    color: #fff;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-contato a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-contato {
+    display: flex;
+    width: calc(1024px / 4);
+    align-items: center;
+}
+
+.img-rodape {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px 0 0;
+}
